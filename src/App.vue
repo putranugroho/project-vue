@@ -1,11 +1,4 @@
 <template>
-  <!-- <div class="container"> -->
-    <!-- <Header text="Add Task" color="blue"/> -->
-  <!-- </div> -->
-  <!-- <div :class="[task.reminder ? 'reminder' : '', 'task']" @dblclick="$emit('delete-task', task.id)" @click="$emit('toggle-reminder', task.id)">
-        <h3>{{task.text}}</h3>
-        <p>{{task.day}}</p>
-    </div> -->
     <div>
       <form action="">
         <div>
@@ -51,70 +44,6 @@ export default {
       email: '',
       password: ''
     }
-  },
-  created(){
-    // this.data=[
-    //     {
-    //         "id_gudang": 1,
-    //         "kode_gudang": "GD01",
-    //         "nama_gudang": "gudanglagu.com",
-    //         "alamat_gudang": "Kuningan",
-    //         "provinsi": "DKI JAKARTA",
-    //         "kabupaten_kota": "JAKARTA SELATAN",
-    //         "kecamatan": "SETIABUDI",
-    //         "kelurahan": "KUNINGAN TIMUR",
-    //         "kodepos": 12950,
-    //         "deskripsi": "ahay",
-    //         "created_by": null,
-    //         "updated_by": null,
-    //         "status": 1
-    //     },
-    //     {
-    //         "id_gudang": 2,
-    //         "kode_gudang": "GD02",
-    //         "nama_gudang": "ISTANA JANUAR MEWAH BANGET",
-    //         "alamat_gudang": "DI INJEK",
-    //         "provinsi": "DKI JAKARTA",
-    //         "kabupaten_kota": "JAKARTA SELATAN",
-    //         "kecamatan": "SETIABUDI",
-    //         "kelurahan": "KUNINGAN TIMUR",
-    //         "kodepos": 12950,
-    //         "deskripsi": "ngipi",
-    //         "created_by": "3",
-    //         "updated_by": null,
-    //         "status": 1
-    //     },
-    //     {
-    //         "id_gudang": 3,
-    //         "kode_gudang": "GD03",
-    //         "nama_gudang": "ISTANA JANUAR SAMA SELINGKUHANNYA",
-    //         "alamat_gudang": "DI INJEK",
-    //         "provinsi": "DKI JAKARTA",
-    //         "kabupaten_kota": "JAKARTA SELATAN",
-    //         "kecamatan": "SETIABUDI",
-    //         "kelurahan": "KUNINGAN TIMUR",
-    //         "kodepos": 12950,
-    //         "deskripsi": "GASSSS",
-    //         "created_by": "3",
-    //         "updated_by": null,
-    //         "status": 1
-    //     },
-    //     {
-    //         "id_gudang": 4,
-    //         "kode_gudang": "GDG69",
-    //         "nama_gudang": "Gudang Garam",
-    //         "alamat_gudang": "Dressrosa",
-    //         "provinsi": "DKI JAKARTA",
-    //         "kabupaten_kota": "JAKARTA BARAT",
-    //         "kecamatan": "KEBON JERUK",
-    //         "kelurahan": "KEMANGGISAN",
-    //         "kodepos": null,
-    //         "deskripsi": "tess",
-    //         "created_by": "3",
-    //         "updated_by": null,
-    //         "status": 1
-    //     }
-    // ]
   },
   methods: {
     login(){
